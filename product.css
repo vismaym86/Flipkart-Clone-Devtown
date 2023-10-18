@@ -1,0 +1,169 @@
+#products{
+    display: flex;
+    padding: 8px;
+}
+
+#topmenu >span{
+    padding: 5px;
+    margin: 5px;
+    font-family: sans-serif;
+}
+
+#collection{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-gap: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.avatar{
+    height: 295px;
+    width: 92%;
+    margin-left: 10px;
+}
+
+.innerbox{
+    display: flex;
+    align-items: start;
+    margin-top: 7px;
+    margin-left: 14px;
+    font-family: Arial, sans-serif;
+}
+
+.flip{
+    display: flex;
+    margin-top: 5px;
+}
+
+.Brand{
+    color: #878787;
+    font-size: 14px;
+    margin-left: 14px;
+    margin-top: 7px;
+}
+
+.names{
+    color: #212121;
+    font-size: 14px;
+    margin-left: 14px;
+}
+
+.price1{
+    font-size: 15px;
+    font-weight: 500;
+    padding-left: 2px;
+}
+
+.img_assured{
+    width: 66px;
+    height: 18px;
+    margin-left: 5px;
+}
+.price2{
+    font-size: 14px;
+    color: #878787;
+    padding-left: 8px;
+}
+
+.offer{
+    font-size: 14px;
+    color: green;
+    padding-left: 8px;
+}
+
+.size{
+    font-size: 14px;
+    padding-left: 16px;
+    padding-top: 5px;
+    color: #878787;
+    font-weight: 600;
+}
+
+.size_sml{
+    font-size: 14px;
+    padding-top: 5px;
+    padding-left: 5px;
+}
+
+.prod_div{
+    box-shadow: rgb(85, 91, 255) 0px 0px 0px 3px, rgb(31, 193, 27) 0px 0px 0px 6px, rgb(255, 217, 19) 0px 0px 0px 9px, rgb(255, 156, 85) 0px 0px 0px 12px, rgb(255, 85, 85) 0px 0px 0px 15px;
+}
+
+#filters{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.filter_sty{
+    padding: 16px;
+    border-bottom: 1px solid #F0F2F5;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+}
+
+.filter_2{
+    color: #878787;
+    font-size: 14px;
+    padding: 12px;
+    padding-left: 0;
+}
+
+.prod_1{
+    color: #878787;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+.sizebox{
+    display: flex;
+}
+
+.fil-down{
+    float: right;
+}
+
+#fass{
+    height: 21px;
+    padding-left: 8px;
+}
+
+#question{
+    float: inline-end;
+    color: #878787;
+    border: 1px solid #878787;
+    padding-left: 3px;
+    padding-right: 3px;
+    border-radius: 50%;
+    cursor: pointer;
+    margin-left: 115px;
+}
+
+.rate{
+    padding-top: 10px;
+    font-size: 14px;
+}
+
+#uparrow{
+    height: 9px;
+    width: 16px;
+    float: right;
+}
+
+#point{
+    justify-content: space-around;
+    display: flex;
+    color: #878787;
+    font-size: 14px;
+    font-weight: bold;
+    padding-bottom: 8px;
+
+}
+
+.dot {
+    height: 10px;
+    width: 12px;
+    border: 1px solid lightgrey;
+    border-radius: 50%;
+    display: inline-block;
+  }
